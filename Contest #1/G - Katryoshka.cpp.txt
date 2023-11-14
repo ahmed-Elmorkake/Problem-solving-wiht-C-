@@ -1,0 +1,27 @@
+
+#include <iostream>
+
+using namespace std;
+
+
+
+
+
+
+int main()
+{
+	long long i, m, b, mini;
+	cin >> i >> m >> b;
+	 
+	mini = min(min(i, m), b);     //  90 24 89   66 0 65
+
+	i -= mini;
+	m -= mini;
+	b -= mini;
+	i /= 2;
+	
+	mini = min(i, b) + mini;    
+	cout << mini;
+
+}
+

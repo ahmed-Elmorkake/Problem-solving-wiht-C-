@@ -1,0 +1,16 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+ double a,b,c;
+cin>>a>>b>>c;
+  long long f=(a*b)/c;
+double v=(a*b)/c-f;
+ if(v>0){cout<<"double";}
+ else if(-2147483648<=((a*b)/c) && 2147483647>=((a*b)/c) ){cout<<"int";}
+ else {cout<<"long long";}
+
+
+}
