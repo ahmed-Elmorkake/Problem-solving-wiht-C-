@@ -1,0 +1,19 @@
+
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main(){
+    double A,B,z;
+
+    cin>>A>>B;
+    z=A/B;
+    cout<<"floor"<<" "<<A<<" "<<"/"<<" "<<B<<" "<<"="<<" "<<floor(z)<<endl;
+     cout<<"ceil"<<" "<<A<<" "<<"/"<<" "<<B<<" "<<"="<<" "<<ceil(z)<<endl;
+      cout<<"round"<<" "<<A<<" "<<"/"<<" "<<B<<" "<<"="<<" "<<round(z);
+
+
+
+
+
+}

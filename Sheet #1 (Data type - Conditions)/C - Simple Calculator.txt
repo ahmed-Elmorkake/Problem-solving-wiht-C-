@@ -1,0 +1,15 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+long long x,y,z,c,v;
+cin>>x>>y;
+z=x+y;
+c=x*y;
+v=x-y;
+cout<<x<<" "<<"+"<<" "<<y<<" "<<"="<<" "<<z<<endl;
+cout<<x<<" "<<"*"<<" "<<y<<" "<<"="<<" "<<c<<endl;
+cout<<x<<" "<<"-"<<" "<<y<<" "<<"="<<" "<<v;
+}
