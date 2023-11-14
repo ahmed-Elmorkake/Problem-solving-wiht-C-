@@ -1,0 +1,16 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+char x;
+cin>>x;
+
+char z=x+1;
+if(x!='z'){cout<<z;}
+ else {
+cout<<"a";
+}
+
+}

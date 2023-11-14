@@ -1,0 +1,11 @@
+#include <iostream>
+#include <iomanip>
+using namespace std;
+
+int main()
+{
+    float x,y;
+    cin >>x>>y;
+    float z=(y*100)/(100-x);
+    cout<<fixed<<setprecision(2)<<z;
+}
