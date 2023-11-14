@@ -1,0 +1,15 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main()
+{int v;
+    string x,y,z,c;
+cin>>x>>y>>z>>c;
+if(y==c){cout<<"ARE Brothers";}
+else{cout<<"NOT";}
+
+
+
+
+}
